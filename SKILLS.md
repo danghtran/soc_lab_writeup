@@ -55,3 +55,21 @@ Skills practiced in each investigation write-up in this repository.
 | **Control validation** | Interpret `action=blocked` vs `action=allowed` firewall outcomes |
 | **Incident reporting** | Document affected entities, escalation rationale, remediation (awareness, password reset) |
 | **Risk prioritization** | Blocked click (contain) vs allowed click (credential reset, audit) |
+
+---
+
+## WebStrike (CyberDefenders) — SOC triage / network forensics (PCAP)
+
+**Write-up:** [`soc_triage_labs/cyberrange-webstrike.md`](soc_triage_labs/cyberrange-webstrike.md)
+
+**Focus:** Investigate a web server compromise using a PCAP (file upload bypass → web shell → reverse shell → exfil attempt).
+
+| Skill area | What you practice |
+|------------|-------------------|
+| **PCAP triage** | Identify suspicious HTTP methods/paths and pivot to attacker conversations |
+| **Wireshark workflow** | Follow HTTP streams, extract headers, and read multipart/form-data uploads |
+| **Web attack analysis** | Understand upload validation bypass via double extensions (e.g., `.jpg.php`) |
+| **Web shell detection** | Identify PHP web shell payloads and post-upload access paths |
+| **C2 / reverse shell identification** | Extract attacker IP/port from shell command (netcat reverse shell) |
+| **Data access/exfil indicators** | Detect sensitive file targeting (e.g., `/etc/passwd`) and POST-based exfil attempts |
+| **IOC documentation** | Record attacker IP, user-agents, malicious filename, upload directory, and ports |
