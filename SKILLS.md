@@ -1,75 +1,66 @@
-# Skills by Lab
+# Skills Index
 
-Skills practiced in each investigation write-up in this repository.
-
----
-
-## Curiosity (BTLO) — Digital forensics / host investigation
-
-**Write-up:** [`digital_forensic_labs/btlo-curiosity.md`](digital_forensic_labs/btlo-curiosity.md)
-
-**Focus:** Determine whether an employee possessed, staged, or archived sensitive product data on a Windows workstation.
-
-| Skill area | What you practice |
-|------------|-------------------|
-| **NTFS forensics** | Parse and query the USN Journal (`$J`) for file create/overwrite/extend events |
-| **MFT correlation** | Use MFT entry numbers from USN output to identify versioned archives |
-| **Timeline analysis** | Reconstruct file activity chronology (onboarding archives → staging → cover tracks) |
-| **Data filtering** | `awk`/CLI deduplication on CSV exports (`FileCreate`, extensions, filename patterns) |
-| **Insider-threat indicators** | Identify staging (`Files.zip`), project codenames (`homepilot`), versioning behavior |
-| **IOC development** | Document archives, scripts, and suspicious executables (e.g., Tor Browser portable) |
-| **Tooling** | Eric Zimmerman tooling (`Get-ZimmermanTools`, **MFTECmd**) |
+Compact index of labs and skill tags that I learned after each lab.
 
 ---
 
-## Gifted Crooks (BTLO) — Threat intelligence
+## Skill tags (taxonomy)
 
-**Write-up:** [`threat_intelligence_labs/btlo-giftedcrooks.md`](threat_intelligence_labs/btlo-giftedcrooks.md)
+Reuse these across labs. Expand only when something is genuinely new.
 
-**Focus:** Navigate MISP and extract intelligence from Event **10128** (UAC-0226 / GIFTEDCROOK).
+| Tag | Meaning |
+|-----|---------|
+| `ntfs-usn` | USN Journal (`$J`) parsing and filtering |
+| `mft` | MFT entry / filesystem metadata correlation |
+| `host-timeline` | File activity chronology on Windows |
+| `cli-awk` | CSV/log filtering with awk/grep |
+| `insider-threat` | Staging, versioning, local data theft indicators |
+| `misp` | MISP events, attributes, objects, tags |
+| `cti-enrichment` | Defanging, IP/geo lookup, TLP |
+| `campaign-analysis` | Threat actor / campaign classification |
+| `splunk` | SIEM search and correlation |
+| `alert-triage` | True vs false positive decisions |
+| `phishing` | Email lures, typosquat, URL shorteners |
+| `firewall-logs` | Blocked vs allowed egress |
+| `incident-report` | Structured SOC case documentation |
+| `pcap` | Packet capture triage |
+| `wireshark` | HTTP streams, protocol analysis |
+| `web-shell` | Upload bypass, PHP shells, web paths |
+| `c2-network` | C2 URLs, reverse shells, ports |
+| `virustotal` | VT history, relations, behavior |
+| `sandbox` | ANY.RUN / dynamic analysis |
+| `malware-config` | Stealer config, encryption keys (e.g. RC4) |
+| `mitre-map` | Map behavior to ATT&CK IDs |
+| `evasion` | Self-delete, cleanup commands |
+| `ioc` | Extract and document indicators |
+| `mfecmd` | Eric Zimmerman MFTECmd |
+| `tor-privacy` | Privacy tools as cover-tracks signal |
 
-| Skill area | What you practice |
-|------------|-------------------|
-| **MISP operations** | Event metadata, attributes, objects, categories, and tags |
-| **Campaign classification** | Map alert context to campaign type (e.g., cyber-espionage) and issuing authority |
-| **IOC extraction** | File extensions, script names, dropped artifacts, network C2 (IP:port) |
-| **Safe sharing** | Defang IPs/URLs (CyberChef) before documenting or sharing |
-| **IOC enrichment** | ICANN IP Lookup for C2 geolocation |
-| **Handling labels** | TLP tags (`tlp:clear`) and sharing constraints |
-| **Reporting** | Structured CTI answers tied to event provenance (publisher, publish date, org) |
+**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`
 
 ---
 
-## Introduction to Phishing (TryHackMe) — SOC triage
+## Labs
 
-**Write-up:** [`soc_triage_labs/thm-phishing.md`](soc_triage_labs/thm-phishing.md)
-
-**Focus:** Triage four phishing-related alerts and complete incident reports in Splunk.
-
-| Skill area | What you practice |
-|------------|-------------------|
-| **SIEM search** | Splunk queries across `email` and `firewall` datasources |
-| **Alert triage** | True positive vs false positive decision-making |
-| **Phishing analysis** | Urgency lures, typosquatting (`m1crosoft`), suspicious TLDs (`amazon.biz`), URL shorteners |
-| **Log correlation** | Tie email recipients to `SourceIP` and outbound URL clicks |
-| **Control validation** | Interpret `action=blocked` vs `action=allowed` firewall outcomes |
-| **Incident reporting** | Document affected entities, escalation rationale, remediation (awareness, password reset) |
-| **Risk prioritization** | Blocked click (contain) vs allowed click (credential reset, audit) |
+| Lab | Write-up | Tags | MITRE (highlight) |
+|-----|----------|------|-------------------|
+| **Curiosity** | [btlo-curiosity.md](digital_forensic_labs/btlo-curiosity.md) | `ntfs-usn`, `mft`, `host-timeline`, `cli-awk`, `insider-threat`, `ioc`, `mfecmd`, `tor-privacy` | Collection, Exfiltration |
+| **Gifted Crooks** | [btlo-giftedcrooks.md](threat_intelligence_labs/btlo-giftedcrooks.md) | `misp`, `cti-enrichment`, `campaign-analysis`, `ioc` | T1071 (C2 in intel) |
+| **Introduction to Phishing** | [thm-phishing.md](soc_triage_labs/thm-phishing.md) | `splunk`, `alert-triage`, `phishing`, `firewall-logs`, `incident-report` | T1566 |
+| **WebStrike** | [cyberrange-webstrike.md](soc_triage_labs/cyberrange-webstrike.md) | `pcap`, `wireshark`, `web-shell`, `c2-network`, `ioc` | T1190, T1505, T1071 |
+| **Oski** | [cyberrange-oski.md](threat_intelligence_labs/cyberrange-oski.md) | `virustotal`, `sandbox`, `malware-config`, `mitre-map`, `c2-network`, `evasion`, `ioc` | T1555, T1071 |
 
 ---
 
-## WebStrike (CyberDefenders) — SOC triage / network forensics (PCAP)
+## By tag (quick lookup)
 
-**Write-up:** [`soc_triage_labs/cyberrange-webstrike.md`](soc_triage_labs/cyberrange-webstrike.md)
-
-**Focus:** Investigate a web server compromise using a PCAP (file upload bypass → web shell → reverse shell → exfil attempt).
-
-| Skill area | What you practice |
-|------------|-------------------|
-| **PCAP triage** | Identify suspicious HTTP methods/paths and pivot to attacker conversations |
-| **Wireshark workflow** | Follow HTTP streams, extract headers, and read multipart/form-data uploads |
-| **Web attack analysis** | Understand upload validation bypass via double extensions (e.g., `.jpg.php`) |
-| **Web shell detection** | Identify PHP web shell payloads and post-upload access paths |
-| **C2 / reverse shell identification** | Extract attacker IP/port from shell command (netcat reverse shell) |
-| **Data access/exfil indicators** | Detect sensitive file targeting (e.g., `/etc/passwd`) and POST-based exfil attempts |
-| **IOC documentation** | Record attacker IP, user-agents, malicious filename, upload directory, and ports |
+| Tag | Labs |
+|-----|------|
+| `splunk` | Introduction to Phishing |
+| `misp` | Gifted Crooks |
+| `virustotal` | Oski |
+| `wireshark` | WebStrike |
+| `ntfs-usn` | Curiosity |
+| `phishing` | Introduction to Phishing, Oski (delivery) |
+| `c2-network` | Gifted Crooks, WebStrike, Oski |
+| `ioc` | All |
