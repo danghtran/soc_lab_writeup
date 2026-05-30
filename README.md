@@ -13,7 +13,8 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Introduction to Phishing** | [TryHackMe](https://tryhackme.com/) | SOC triage (phishing) | [`soc_triage_labs/thm-phishing.md`](soc_triage_labs/thm-phishing.md) | Complete |
 | **WebStrike** | [CyberDefenders](https://cyberdefenders.org/) | SOC triage (PCAP / web attack) | [`soc_triage_labs/cyberrange-webstrike.md`](soc_triage_labs/cyberrange-webstrike.md) | Complete |
 | **Oski** | [CyberDefenders](https://cyberdefenders.org/) | Malware analysis / threat intel | [`threat_intelligence_labs/cyberrange-oski.md`](threat_intelligence_labs/cyberrange-oski.md) | Complete |
-| **Poisoned Credentials** | [CyberDefenders](https://cyberdefenders.org/) | SOC triage (PCAP / credential poisoning) | [`cyberrange-poisonedcredential.md`](cyberrange-poisonedcredential.md) | Complete |
+| **Poisoned Credentials** | [CyberDefenders](https://cyberdefenders.org/) | SOC triage (PCAP / credential poisoning) | [`digital_forensic_labs/cyberrange-poisonedcredential.md`](digital_forensic_labs/cyberrange-poisonedcredential.md) | Complete |
+| **Yellow RAT** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (malware / VT) | [`threat_intelligence_labs/cyberrange-yellowrat.md`](threat_intelligence_labs/cyberrange-yellowrat.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 
