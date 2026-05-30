@@ -35,6 +35,8 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `ioc` | Extract and document indicators |
 | `mfecmd` | Eric Zimmerman MFTECmd |
 | `tor-privacy` | Privacy tools as cover-tracks signal |
+| `llmnr-nbns` | LLMNR / NBT-NS poisoning, mistyped name queries |
+| `ntlm-smb` | SMB2 session setup, NTLMSSP auth and relay |
 
 **Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`
 
@@ -49,6 +51,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Introduction to Phishing** | [thm-phishing.md](soc_triage_labs/thm-phishing.md) | `splunk`, `alert-triage`, `phishing`, `firewall-logs`, `incident-report` | T1566 |
 | **WebStrike** | [cyberrange-webstrike.md](soc_triage_labs/cyberrange-webstrike.md) | `pcap`, `wireshark`, `web-shell`, `c2-network`, `ioc` | T1190, T1505, T1071 |
 | **Oski** | [cyberrange-oski.md](threat_intelligence_labs/cyberrange-oski.md) | `virustotal`, `sandbox`, `malware-config`, `mitre-map`, `c2-network`, `evasion`, `ioc` | T1555, T1071 |
+| **Poisoned Credentials** | [cyberrange-poisonedcredential.md](cyberrange-poisonedcredential.md) | `pcap`, `wireshark`, `llmnr-nbns`, `ntlm-smb`, `mitre-map`, `ioc` | T1557.001, T1021.002 |
 
 ---
 
@@ -59,7 +62,10 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `splunk` | Introduction to Phishing |
 | `misp` | Gifted Crooks |
 | `virustotal` | Oski |
-| `wireshark` | WebStrike |
+| `wireshark` | WebStrike, Poisoned Credentials |
+| `pcap` | WebStrike, Poisoned Credentials |
+| `llmnr-nbns` | Poisoned Credentials |
+| `ntlm-smb` | Poisoned Credentials |
 | `ntfs-usn` | Curiosity |
 | `phishing` | Introduction to Phishing, Oski (delivery) |
 | `c2-network` | Gifted Crooks, WebStrike, Oski |
