@@ -17,6 +17,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Yellow RAT** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (malware / VT) | [`threat_intelligence_labs/cyberrange-yellowrat.md`](threat_intelligence_labs/cyberrange-yellowrat.md) | Complete |
 | **Amadey APT-C-36** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility) | [`digital_forensic_labs/cyberrange-apt-c36.md`](digital_forensic_labs/cyberrange-apt-c36.md) | Complete |
 | **L'espion** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (OSINT / insider) | [`threat_intelligence_labs/cyberrange-lespion.md`](threat_intelligence_labs/cyberrange-lespion.md) | Complete |
+| **The Crime** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (Android / mobile) | [`digital_forensic_labs/cyberrange-thecrime.md`](digital_forensic_labs/cyberrange-thecrime.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 

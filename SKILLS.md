@@ -40,8 +40,10 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `memory-forensics` | RAM dump analysis, process/network artifacts |
 | `volatility` | Volatility 3 plugins (pstree, cmdline, netscan, filescan) |
 | `osint` | Open-source profiling, social/geo correlation, image search |
+| `android-forensics` | Android FS dump, app/SMS/location/chat artifacts |
+| `sqlite` | Android SQLite DBs (mmssms, calllog, Maps, Discord KV) |
 
-**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`
+**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`, `ALEAPP`, `DB Browser for SQLite`
 
 ---
 
@@ -58,6 +60,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Yellow RAT** | [cyberrange-yellowrat.md](threat_intelligence_labs/cyberrange-yellowrat.md) | `virustotal`, `c2-network`, `ioc`, `mitre-map`, `campaign-analysis` | T1219, T1071 |
 | **Amadey APT-C-36** | [cyberrange-apt-c36.md](digital_forensic_labs/cyberrange-apt-c36.md) | `memory-forensics`, `volatility`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1036, T1071, T1218, T1053 |
 | **L'espion** | [cyberrange-lespion.md](threat_intelligence_labs/cyberrange-lespion.md) | `osint`, `insider-threat`, `cti-enrichment`, `ioc`, `mitre-map` | T1552, T1496, T1078 |
+| **The Crime** | [cyberrange-thecrime.md](digital_forensic_labs/cyberrange-thecrime.md) | `android-forensics`, `sqlite`, `host-timeline`, `ioc` | — |
 
 ---
 
@@ -79,4 +82,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `volatility` | Amadey APT-C-36 |
 | `osint` | L'espion |
 | `insider-threat` | Curiosity, L'espion |
+| `android-forensics` | The Crime |
+| `sqlite` | The Crime |
+| `host-timeline` | Curiosity, The Crime |
 | `ioc` | All |
