@@ -37,8 +37,10 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `tor-privacy` | Privacy tools as cover-tracks signal |
 | `llmnr-nbns` | LLMNR / NBT-NS poisoning, mistyped name queries |
 | `ntlm-smb` | SMB2 session setup, NTLMSSP auth and relay |
+| `memory-forensics` | RAM dump analysis, process/network artifacts |
+| `volatility` | Volatility 3 plugins (pstree, cmdline, netscan, filescan) |
 
-**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`
+**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`
 
 ---
 
@@ -53,6 +55,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Oski** | [cyberrange-oski.md](threat_intelligence_labs/cyberrange-oski.md) | `virustotal`, `sandbox`, `malware-config`, `mitre-map`, `c2-network`, `evasion`, `ioc` | T1555, T1071 |
 | **Poisoned Credentials** | [cyberrange-poisonedcredential.md](digital_forensic_labs/cyberrange-poisonedcredential.md) | `pcap`, `wireshark`, `llmnr-nbns`, `ntlm-smb`, `mitre-map`, `ioc` | T1557.001, T1021.002 |
 | **Yellow RAT** | [cyberrange-yellowrat.md](threat_intelligence_labs/cyberrange-yellowrat.md) | `virustotal`, `c2-network`, `ioc`, `mitre-map`, `campaign-analysis` | T1219, T1071 |
+| **Amadey APT-C-36** | [cyberrange-apt-c36.md](digital_forensic_labs/cyberrange-apt-c36.md) | `memory-forensics`, `volatility`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1036, T1071, T1218, T1053 |
 
 ---
 
@@ -69,5 +72,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `ntlm-smb` | Poisoned Credentials |
 | `ntfs-usn` | Curiosity |
 | `phishing` | Introduction to Phishing, Oski (delivery) |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36 |
+| `memory-forensics` | Amadey APT-C-36 |
+| `volatility` | Amadey APT-C-36 |
 | `ioc` | All |
