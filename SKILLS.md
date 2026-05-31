@@ -39,8 +39,9 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `ntlm-smb` | SMB2 session setup, NTLMSSP auth and relay |
 | `memory-forensics` | RAM dump analysis, process/network artifacts |
 | `volatility` | Volatility 3 plugins (pstree, cmdline, netscan, filescan) |
+| `osint` | Open-source profiling, social/geo correlation, image search |
 
-**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`
+**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`
 
 ---
 
@@ -56,6 +57,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Poisoned Credentials** | [cyberrange-poisonedcredential.md](digital_forensic_labs/cyberrange-poisonedcredential.md) | `pcap`, `wireshark`, `llmnr-nbns`, `ntlm-smb`, `mitre-map`, `ioc` | T1557.001, T1021.002 |
 | **Yellow RAT** | [cyberrange-yellowrat.md](threat_intelligence_labs/cyberrange-yellowrat.md) | `virustotal`, `c2-network`, `ioc`, `mitre-map`, `campaign-analysis` | T1219, T1071 |
 | **Amadey APT-C-36** | [cyberrange-apt-c36.md](digital_forensic_labs/cyberrange-apt-c36.md) | `memory-forensics`, `volatility`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1036, T1071, T1218, T1053 |
+| **L'espion** | [cyberrange-lespion.md](threat_intelligence_labs/cyberrange-lespion.md) | `osint`, `insider-threat`, `cti-enrichment`, `ioc`, `mitre-map` | T1552, T1496, T1078 |
 
 ---
 
@@ -75,4 +77,6 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36 |
 | `memory-forensics` | Amadey APT-C-36 |
 | `volatility` | Amadey APT-C-36 |
+| `osint` | L'espion |
+| `insider-threat` | Curiosity, L'espion |
 | `ioc` | All |
