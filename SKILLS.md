@@ -43,7 +43,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `android-forensics` | Android FS dump, app/SMS/location/chat artifacts |
 | `sqlite` | Android SQLite DBs (mmssms, calllog, Maps, Discord KV) |
 
-**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`, `ALEAPP`, `DB Browser for SQLite`
+**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`, `ALEAPP`, `DB Browser for SQLite`, `MalwareBazaar`, `ThreatFox`
 
 ---
 
@@ -62,6 +62,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **L'espion** | [cyberrange-lespion.md](threat_intelligence_labs/cyberrange-lespion.md) | `osint`, `insider-threat`, `cti-enrichment`, `ioc`, `mitre-map` | T1552, T1496, T1078 |
 | **The Crime** | [cyberrange-thecrime.md](digital_forensic_labs/cyberrange-thecrime.md) | `android-forensics`, `sqlite`, `host-timeline`, `ioc` | — |
 | **PsExec Hunt** | [cyberrange-psexechunt.md](digital_forensic_labs/cyberrange-psexechunt.md) | `pcap`, `wireshark`, `ntlm-smb`, `mitre-map`, `ioc`, `alert-triage` | T1021.002, T1569.002, T1570 |
+| **Red Stealer** | [cyberrange-redstealer.md](threat_intelligence_labs/cyberrange-redstealer.md) | `virustotal`, `cti-enrichment`, `mitre-map`, `c2-network`, `ioc` | T1005, T1071, T1134, T1555 |
 
 ---
 
@@ -71,7 +72,8 @@ Reuse these across labs. Expand only when something is genuinely new.
 |-----|------|
 | `splunk` | Introduction to Phishing |
 | `misp` | Gifted Crooks |
-| `virustotal` | Oski, Yellow RAT |
+| `virustotal` | Oski, Yellow RAT, Red Stealer |
+| `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer |
 | `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt |
 | `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt |
 | `llmnr-nbns` | Poisoned Credentials |
@@ -79,7 +81,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `alert-triage` | Introduction to Phishing, PsExec Hunt |
 | `ntfs-usn` | Curiosity |
 | `phishing` | Introduction to Phishing, Oski (delivery) |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36 |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer |
 | `memory-forensics` | Amadey APT-C-36 |
 | `volatility` | Amadey APT-C-36 |
 | `osint` | L'espion |

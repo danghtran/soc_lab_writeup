@@ -19,6 +19,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **L'espion** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (OSINT / insider) | [`threat_intelligence_labs/cyberrange-lespion.md`](threat_intelligence_labs/cyberrange-lespion.md) | Complete |
 | **The Crime** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (Android / mobile) | [`digital_forensic_labs/cyberrange-thecrime.md`](digital_forensic_labs/cyberrange-thecrime.md) | Complete |
 | **PsExec Hunt** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP / lateral movement) | [`digital_forensic_labs/cyberrange-psexechunt.md`](digital_forensic_labs/cyberrange-psexechunt.md) | Complete |
+| **Red Stealer** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (VT / MalwareBazaar / ThreatFox) | [`threat_intelligence_labs/cyberrange-redstealer.md`](threat_intelligence_labs/cyberrange-redstealer.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 
