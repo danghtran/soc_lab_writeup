@@ -61,6 +61,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Amadey APT-C-36** | [cyberrange-apt-c36.md](digital_forensic_labs/cyberrange-apt-c36.md) | `memory-forensics`, `volatility`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1036, T1071, T1218, T1053 |
 | **L'espion** | [cyberrange-lespion.md](threat_intelligence_labs/cyberrange-lespion.md) | `osint`, `insider-threat`, `cti-enrichment`, `ioc`, `mitre-map` | T1552, T1496, T1078 |
 | **The Crime** | [cyberrange-thecrime.md](digital_forensic_labs/cyberrange-thecrime.md) | `android-forensics`, `sqlite`, `host-timeline`, `ioc` | — |
+| **PsExec Hunt** | [cyberrange-psexechunt.md](digital_forensic_labs/cyberrange-psexechunt.md) | `pcap`, `wireshark`, `ntlm-smb`, `mitre-map`, `ioc`, `alert-triage` | T1021.002, T1569.002, T1570 |
 
 ---
 
@@ -71,10 +72,11 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `splunk` | Introduction to Phishing |
 | `misp` | Gifted Crooks |
 | `virustotal` | Oski, Yellow RAT |
-| `wireshark` | WebStrike, Poisoned Credentials |
-| `pcap` | WebStrike, Poisoned Credentials |
+| `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt |
+| `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt |
 | `llmnr-nbns` | Poisoned Credentials |
-| `ntlm-smb` | Poisoned Credentials |
+| `ntlm-smb` | Poisoned Credentials, PsExec Hunt |
+| `alert-triage` | Introduction to Phishing, PsExec Hunt |
 | `ntfs-usn` | Curiosity |
 | `phishing` | Introduction to Phishing, Oski (delivery) |
 | `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36 |
