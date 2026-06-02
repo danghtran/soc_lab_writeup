@@ -42,6 +42,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `osint` | Open-source profiling, social/geo correlation, image search |
 | `android-forensics` | Android FS dump, app/SMS/location/chat artifacts |
 | `sqlite` | Android SQLite DBs (mmssms, calllog, Maps, Discord KV) |
+| `supply-chain` | Trojanized vendor builds, signed-update compromise |
 
 **Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`, `ALEAPP`, `DB Browser for SQLite`, `MalwareBazaar`, `ThreatFox`
 
@@ -63,6 +64,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **The Crime** | [cyberrange-thecrime.md](digital_forensic_labs/cyberrange-thecrime.md) | `android-forensics`, `sqlite`, `host-timeline`, `ioc` | — |
 | **PsExec Hunt** | [cyberrange-psexechunt.md](digital_forensic_labs/cyberrange-psexechunt.md) | `pcap`, `wireshark`, `ntlm-smb`, `mitre-map`, `ioc`, `alert-triage` | T1021.002, T1569.002, T1570 |
 | **Red Stealer** | [cyberrange-redstealer.md](threat_intelligence_labs/cyberrange-redstealer.md) | `virustotal`, `cti-enrichment`, `mitre-map`, `c2-network`, `ioc` | T1005, T1071, T1134, T1555 |
+| **3CX Supply Chain** | [cyberrange-3cxsupplychain.md](threat_intelligence_labs/cyberrange-3cxsupplychain.md) | `virustotal`, `supply-chain`, `mitre-map`, `evasion`, `malware-config`, `campaign-analysis`, `ioc` | T1195, T1574, T1497 |
 
 ---
 
@@ -72,8 +74,12 @@ Reuse these across labs. Expand only when something is genuinely new.
 |-----|------|
 | `splunk` | Introduction to Phishing |
 | `misp` | Gifted Crooks |
-| `virustotal` | Oski, Yellow RAT, Red Stealer |
+| `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain |
 | `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer |
+| `supply-chain` | 3CX Supply Chain |
+| `campaign-analysis` | Gifted Crooks, Yellow RAT, 3CX Supply Chain |
+| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain |
+| `malware-config` | Oski, 3CX Supply Chain |
 | `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt |
 | `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt |
 | `llmnr-nbns` | Poisoned Credentials |
