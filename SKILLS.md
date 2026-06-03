@@ -43,8 +43,9 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `android-forensics` | Android FS dump, app/SMS/location/chat artifacts |
 | `sqlite` | Android SQLite DBs (mmssms, calllog, Maps, Discord KV) |
 | `supply-chain` | Trojanized vendor builds, signed-update compromise |
+| `linux-forensics` | Linux disk image, bash history, auth/syslog |
 
-**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`, `ALEAPP`, `DB Browser for SQLite`, `MalwareBazaar`, `ThreatFox`
+**Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`, `ALEAPP`, `DB Browser for SQLite`, `MalwareBazaar`, `ThreatFox`, `FTK Imager`
 
 ---
 
@@ -66,6 +67,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Red Stealer** | [cyberrange-redstealer.md](threat_intelligence_labs/cyberrange-redstealer.md) | `virustotal`, `cti-enrichment`, `mitre-map`, `c2-network`, `ioc` | T1005, T1071, T1134, T1555 |
 | **3CX Supply Chain** | [cyberrange-3cxsupplychain.md](threat_intelligence_labs/cyberrange-3cxsupplychain.md) | `virustotal`, `supply-chain`, `mitre-map`, `evasion`, `malware-config`, `campaign-analysis`, `ioc` | T1195, T1574, T1497 |
 | **DanaBot** | [cyberrange-danabot.md](digital_forensic_labs/cyberrange-danabot.md) | `pcap`, `wireshark`, `c2-network`, `mitre-map`, `ioc`, `cti-enrichment` | T1189, T1059, T1105, T1218 |
+| **Insider** | [cyberrange-insider.md](digital_forensic_labs/cyberrange-insider.md) | `linux-forensics`, `insider-threat`, `host-timeline`, `mitre-map`, `ioc` | T1003, T1078, T1059 |
 
 ---
 
@@ -92,8 +94,9 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `memory-forensics` | Amadey APT-C-36 |
 | `volatility` | Amadey APT-C-36 |
 | `osint` | L'espion |
-| `insider-threat` | Curiosity, L'espion |
+| `insider-threat` | Curiosity, L'espion, Insider |
+| `linux-forensics` | Insider |
+| `host-timeline` | Curiosity, The Crime, Insider |
 | `android-forensics` | The Crime |
 | `sqlite` | The Crime |
-| `host-timeline` | Curiosity, The Crime |
 | `ioc` | All |

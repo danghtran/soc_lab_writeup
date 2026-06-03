@@ -22,6 +22,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Red Stealer** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (VT / MalwareBazaar / ThreatFox) | [`threat_intelligence_labs/cyberrange-redstealer.md`](threat_intelligence_labs/cyberrange-redstealer.md) | Complete |
 | **3CX Supply Chain** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (supply chain / VT) | [`threat_intelligence_labs/cyberrange-3cxsupplychain.md`](threat_intelligence_labs/cyberrange-3cxsupplychain.md) | Complete |
 | **DanaBot** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP / malware delivery) | [`digital_forensic_labs/cyberrange-danabot.md`](digital_forensic_labs/cyberrange-danabot.md) | Complete |
+| **Insider** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (Linux disk / insider) | [`digital_forensic_labs/cyberrange-insider.md`](digital_forensic_labs/cyberrange-insider.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 
