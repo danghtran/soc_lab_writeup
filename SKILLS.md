@@ -68,6 +68,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **3CX Supply Chain** | [cyberrange-3cxsupplychain.md](threat_intelligence_labs/cyberrange-3cxsupplychain.md) | `virustotal`, `supply-chain`, `mitre-map`, `evasion`, `malware-config`, `campaign-analysis`, `ioc` | T1195, T1574, T1497 |
 | **DanaBot** | [cyberrange-danabot.md](digital_forensic_labs/cyberrange-danabot.md) | `pcap`, `wireshark`, `c2-network`, `mitre-map`, `ioc`, `cti-enrichment` | T1189, T1059, T1105, T1218 |
 | **Insider** | [cyberrange-insider.md](digital_forensic_labs/cyberrange-insider.md) | `linux-forensics`, `insider-threat`, `host-timeline`, `mitre-map`, `ioc` | T1003, T1078, T1059 |
+| **Ramnit** | [cyberrange-ramnit.md](digital_forensic_labs/cyberrange-ramnit.md) | `memory-forensics`, `volatility`, `virustotal`, `cti-enrichment`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1036, T1071, T1555 |
 
 ---
 
@@ -77,22 +78,22 @@ Reuse these across labs. Expand only when something is genuinely new.
 |-----|------|
 | `splunk` | Introduction to Phishing |
 | `misp` | Gifted Crooks |
-| `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain |
+| `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain, Ramnit |
 | `supply-chain` | 3CX Supply Chain |
 | `campaign-analysis` | Gifted Crooks, Yellow RAT, 3CX Supply Chain |
-| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain |
 | `malware-config` | Oski, 3CX Supply Chain |
 | `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot |
 | `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot |
-| `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer, DanaBot |
+| `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer, DanaBot, Ramnit |
 | `llmnr-nbns` | Poisoned Credentials |
 | `ntlm-smb` | Poisoned Credentials, PsExec Hunt |
 | `alert-triage` | Introduction to Phishing, PsExec Hunt |
 | `ntfs-usn` | Curiosity |
 | `phishing` | Introduction to Phishing, Oski (delivery) |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot |
-| `memory-forensics` | Amadey APT-C-36 |
-| `volatility` | Amadey APT-C-36 |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit |
+| `memory-forensics` | Amadey APT-C-36, Ramnit |
+| `volatility` | Amadey APT-C-36, Ramnit |
+| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit |
 | `osint` | L'espion |
 | `insider-threat` | Curiosity, L'espion, Insider |
 | `linux-forensics` | Insider |
