@@ -25,6 +25,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Insider** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (Linux disk / insider) | [`digital_forensic_labs/cyberrange-insider.md`](digital_forensic_labs/cyberrange-insider.md) | Complete |
 | **Ramnit** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility) | [`digital_forensic_labs/cyberrange-ramnit.md`](digital_forensic_labs/cyberrange-ramnit.md) | Complete |
 | **GrabThePhisher** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (phishing kit / Telegram) | [`threat_intelligence_labs/cyberrange-grabthephisher.md`](threat_intelligence_labs/cyberrange-grabthephisher.md) | Complete |
+| **FakeGPT** | [CyberDefenders](https://cyberdefenders.org/) | Malware analysis (malicious browser extension) | [`malware_analysis/cyberrange-fakegpt.md`](malware_analysis/cyberrange-fakegpt.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 

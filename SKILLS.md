@@ -44,6 +44,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `sqlite` | Android SQLite DBs (mmssms, calllog, Maps, Discord KV) |
 | `supply-chain` | Trojanized vendor builds, signed-update compromise |
 | `linux-forensics` | Linux disk image, bash history, auth/syslog |
+| `browser-extension` | Chrome extension manifest, content scripts, exfil |
 
 **Tools** (optional extra column): `MFTECmd`, `Splunk`, `Wireshark`, `VirusTotal`, `ANY.RUN`, `CyberChef`, `Volatility 3`, `Sherlock`, `ALEAPP`, `DB Browser for SQLite`, `MalwareBazaar`, `ThreatFox`, `FTK Imager`
 
@@ -70,6 +71,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Insider** | [cyberrange-insider.md](digital_forensic_labs/cyberrange-insider.md) | `linux-forensics`, `insider-threat`, `host-timeline`, `mitre-map`, `ioc` | T1003, T1078, T1059 |
 | **Ramnit** | [cyberrange-ramnit.md](digital_forensic_labs/cyberrange-ramnit.md) | `memory-forensics`, `volatility`, `virustotal`, `cti-enrichment`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1036, T1071, T1555 |
 | **GrabThePhisher** | [cyberrange-grabthephisher.md](threat_intelligence_labs/cyberrange-grabthephisher.md) | `phishing`, `web-shell`, `c2-network`, `cti-enrichment`, `mitre-map`, `ioc` | T1566, T1041, T1056 |
+| **FakeGPT** | [cyberrange-fakegpt.md](malware_analysis/cyberrange-fakegpt.md) | `browser-extension`, `malware-config`, `evasion`, `c2-network`, `mitre-map`, `ioc`, `phishing` | T1176, T1056, T1539, T1497 |
 
 ---
 
@@ -82,7 +84,6 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain, Ramnit |
 | `supply-chain` | 3CX Supply Chain |
 | `campaign-analysis` | Gifted Crooks, Yellow RAT, 3CX Supply Chain |
-| `malware-config` | Oski, 3CX Supply Chain |
 | `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot |
 | `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot |
 | `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer, DanaBot, Ramnit, GrabThePhisher |
@@ -90,12 +91,14 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `ntlm-smb` | Poisoned Credentials, PsExec Hunt |
 | `alert-triage` | Introduction to Phishing, PsExec Hunt |
 | `ntfs-usn` | Curiosity |
-| `phishing` | Introduction to Phishing, Oski (delivery), GrabThePhisher |
+| `phishing` | Introduction to Phishing, Oski (delivery), GrabThePhisher, FakeGPT |
+| `browser-extension` | FakeGPT |
+| `malware-config` | Oski, 3CX Supply Chain, FakeGPT |
+| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT |
 | `web-shell` | WebStrike, GrabThePhisher |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT |
 | `memory-forensics` | Amadey APT-C-36, Ramnit |
 | `volatility` | Amadey APT-C-36, Ramnit |
-| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit |
 | `osint` | L'espion |
 | `insider-threat` | Curiosity, L'espion, Insider |
 | `linux-forensics` | Insider |
