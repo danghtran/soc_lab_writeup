@@ -26,6 +26,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Ramnit** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility) | [`digital_forensic_labs/cyberrange-ramnit.md`](digital_forensic_labs/cyberrange-ramnit.md) | Complete |
 | **GrabThePhisher** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (phishing kit / Telegram) | [`threat_intelligence_labs/cyberrange-grabthephisher.md`](threat_intelligence_labs/cyberrange-grabthephisher.md) | Complete |
 | **FakeGPT** | [CyberDefenders](https://cyberdefenders.org/) | Malware analysis (malicious browser extension) | [`malware_analysis/cyberrange-fakegpt.md`](malware_analysis/cyberrange-fakegpt.md) | Complete |
+| **Dragos 1UP (BOTS)** | [Splunk BOSS](https://bots.splunk.com/) | SOC triage (ICS/OT / Splunk + Dragos) | [`soc_triage_labs/splunkboss-drago.md`](soc_triage_labs/splunkboss-drago.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 
