@@ -75,6 +75,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **FakeGPT** | [cyberrange-fakegpt.md](malware_analysis/cyberrange-fakegpt.md) | `browser-extension`, `malware-config`, `evasion`, `c2-network`, `mitre-map`, `ioc`, `phishing` | T1176, T1056, T1539, T1497 |
 | **Dragos 1UP (BOTS)** | [splunkboss-drago.md](soc_triage_labs/splunkboss-drago.md) | `splunk`, `ics-ot`, `alert-triage`, `c2-network`, `mitre-map`, `ioc`, `incident-report` | T0855, T1210, T1219 |
 | **Lockdown** | [cyberrange-lockdown.md](digital_forensic_labs/cyberrange-lockdown.md) | `pcap`, `wireshark`, `web-shell`, `ntlm-smb`, `memory-forensics`, `volatility`, `virustotal`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1190, T1505.003, T1547.001 |
+| **XWorm** | [cyberrange-xworm.md](malware_analysis/cyberrange-xworm.md) | `virustotal`, `malware-config`, `c2-network`, `evasion`, `mitre-map`, `ioc`, `phishing` | T1056.001, T1053.005, T1091, T1497 |
 
 ---
 
@@ -87,7 +88,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `alert-triage` | Introduction to Phishing, PsExec Hunt, Dragos 1UP (BOTS) |
 | `incident-report` | Introduction to Phishing, Dragos 1UP (BOTS) |
 | `misp` | Gifted Crooks |
-| `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain, Ramnit, Lockdown |
+| `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain, Ramnit, Lockdown, XWorm |
 | `supply-chain` | 3CX Supply Chain |
 | `campaign-analysis` | Gifted Crooks, Yellow RAT, 3CX Supply Chain |
 | `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot, Lockdown |
@@ -96,12 +97,12 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `llmnr-nbns` | Poisoned Credentials |
 | `ntlm-smb` | Poisoned Credentials, PsExec Hunt, Lockdown |
 | `ntfs-usn` | Curiosity |
-| `phishing` | Introduction to Phishing, Oski (delivery), GrabThePhisher, FakeGPT |
+| `phishing` | Introduction to Phishing, Oski (delivery), GrabThePhisher, FakeGPT, XWorm |
 | `browser-extension` | FakeGPT |
-| `malware-config` | Oski, 3CX Supply Chain, FakeGPT |
-| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT, Lockdown |
+| `malware-config` | Oski, 3CX Supply Chain, FakeGPT, XWorm |
+| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT, Lockdown, XWorm |
 | `web-shell` | WebStrike, GrabThePhisher, Lockdown |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown, XWorm |
 | `memory-forensics` | Amadey APT-C-36, Ramnit, Lockdown |
 | `volatility` | Amadey APT-C-36, Ramnit, Lockdown |
 | `osint` | L'espion |
