@@ -29,6 +29,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Dragos 1UP (BOTS)** | [Splunk BOSS](https://bots.splunk.com/) | SOC triage (ICS/OT / Splunk + Dragos) | [`soc_triage_labs/splunkboss-drago.md`](soc_triage_labs/splunkboss-drago.md) | Complete |
 | **Lockdown** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP + memory + malware) | [`digital_forensic_labs/cyberrange-lockdown.md`](digital_forensic_labs/cyberrange-lockdown.md) | Complete |
 | **XWorm** | [CyberDefenders](https://cyberdefenders.org/) | Malware analysis (.NET RAT / keylogger) | [`malware_analysis/cyberrange-xworm.md`](malware_analysis/cyberrange-xworm.md) | Complete |
+| **Reveal** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility) | [`digital_forensic_labs/cyberrange-reveal.md`](digital_forensic_labs/cyberrange-reveal.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 
