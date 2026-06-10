@@ -30,6 +30,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Lockdown** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP + memory + malware) | [`digital_forensic_labs/cyberrange-lockdown.md`](digital_forensic_labs/cyberrange-lockdown.md) | Complete |
 | **XWorm** | [CyberDefenders](https://cyberdefenders.org/) | Malware analysis (.NET RAT / keylogger) | [`malware_analysis/cyberrange-xworm.md`](malware_analysis/cyberrange-xworm.md) | Complete |
 | **Reveal** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility) | [`digital_forensic_labs/cyberrange-reveal.md`](digital_forensic_labs/cyberrange-reveal.md) | Complete |
+| **Web Investigation** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP / SQLi / web shell) | [`digital_forensic_labs/cyberrange-webinvestigate.md`](digital_forensic_labs/cyberrange-webinvestigate.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 

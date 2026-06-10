@@ -77,6 +77,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Lockdown** | [cyberrange-lockdown.md](digital_forensic_labs/cyberrange-lockdown.md) | `pcap`, `wireshark`, `web-shell`, `ntlm-smb`, `memory-forensics`, `volatility`, `virustotal`, `c2-network`, `mitre-map`, `ioc`, `evasion` | T1190, T1505.003, T1547.001 |
 | **XWorm** | [cyberrange-xworm.md](malware_analysis/cyberrange-xworm.md) | `virustotal`, `malware-config`, `c2-network`, `evasion`, `mitre-map`, `ioc`, `phishing` | T1056.001, T1053.005, T1091, T1497 |
 | **Reveal** | [cyberrange-reveal.md](digital_forensic_labs/cyberrange-reveal.md) | `memory-forensics`, `volatility`, `sandbox`, `c2-network`, `mitre-map`, `ioc`, `cti-enrichment` | T1059.001, T1218.011 |
+| **Web Investigation** | [cyberrange-webinvestigate.md](digital_forensic_labs/cyberrange-webinvestigate.md) | `pcap`, `wireshark`, `web-shell`, `c2-network`, `mitre-map`, `ioc`, `osint` | T1190, T1505.003, T1213 |
 
 ---
 
@@ -92,8 +93,8 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain, Ramnit, Lockdown, XWorm |
 | `supply-chain` | 3CX Supply Chain |
 | `campaign-analysis` | Gifted Crooks, Yellow RAT, 3CX Supply Chain |
-| `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot, Lockdown |
-| `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot, Lockdown |
+| `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot, Lockdown, Web Investigation |
+| `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot, Lockdown, Web Investigation |
 | `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer, DanaBot, Ramnit, GrabThePhisher, Reveal |
 | `llmnr-nbns` | Poisoned Credentials |
 | `ntlm-smb` | Poisoned Credentials, PsExec Hunt, Lockdown |
@@ -102,11 +103,11 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `browser-extension` | FakeGPT |
 | `malware-config` | Oski, 3CX Supply Chain, FakeGPT, XWorm |
 | `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT, Lockdown, XWorm |
-| `web-shell` | WebStrike, GrabThePhisher, Lockdown |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown, XWorm, Reveal |
+| `web-shell` | WebStrike, GrabThePhisher, Lockdown, Web Investigation |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown, XWorm, Reveal, Web Investigation |
 | `memory-forensics` | Amadey APT-C-36, Ramnit, Lockdown, Reveal |
 | `volatility` | Amadey APT-C-36, Ramnit, Lockdown, Reveal |
-| `osint` | L'espion |
+| `osint` | L'espion, Web Investigation |
 | `insider-threat` | Curiosity, L'espion, Insider |
 | `linux-forensics` | Insider |
 | `host-timeline` | Curiosity, The Crime, Insider |
