@@ -32,6 +32,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **Reveal** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility) | [`digital_forensic_labs/cyberrange-reveal.md`](digital_forensic_labs/cyberrange-reveal.md) | Complete |
 | **Web Investigation** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP / SQLi / web shell) | [`digital_forensic_labs/cyberrange-webinvestigate.md`](digital_forensic_labs/cyberrange-webinvestigate.md) | Complete |
 | **IcedID** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (IcedID / VT / Malpedia) | [`threat_intelligence_labs/cyberrange-icedid.md`](threat_intelligence_labs/cyberrange-icedid.md) | Complete |
+| **PhishStrike** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (phishing / URLHaus / RATs) | [`threat_intelligence_labs/cyberrange-phishstrike.md`](threat_intelligence_labs/cyberrange-phishstrike.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 

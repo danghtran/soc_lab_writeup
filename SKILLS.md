@@ -79,6 +79,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **Reveal** | [cyberrange-reveal.md](digital_forensic_labs/cyberrange-reveal.md) | `memory-forensics`, `volatility`, `sandbox`, `c2-network`, `mitre-map`, `ioc`, `cti-enrichment` | T1059.001, T1218.011 |
 | **Web Investigation** | [cyberrange-webinvestigate.md](digital_forensic_labs/cyberrange-webinvestigate.md) | `pcap`, `wireshark`, `web-shell`, `c2-network`, `mitre-map`, `ioc`, `osint` | T1190, T1505.003, T1213 |
 | **IcedID** | [cyberrange-icedid.md](threat_intelligence_labs/cyberrange-icedid.md) | `virustotal`, `cti-enrichment`, `campaign-analysis`, `c2-network`, `evasion`, `mitre-map`, `ioc`, `phishing` | T1203, T1105, T1566 |
+| **PhishStrike** | [cyberrange-phishstrike.md](threat_intelligence_labs/cyberrange-phishstrike.md) | `phishing`, `cti-enrichment`, `virustotal`, `sandbox`, `c2-network`, `evasion`, `mitre-map`, `ioc` | T1566, T1547, T1102 |
 
 ---
 
@@ -91,21 +92,21 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `alert-triage` | Introduction to Phishing, PsExec Hunt, Dragos 1UP (BOTS) |
 | `incident-report` | Introduction to Phishing, Dragos 1UP (BOTS) |
 | `misp` | Gifted Crooks |
-| `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain, Ramnit, Lockdown, XWorm, IcedID |
+| `virustotal` | Oski, Yellow RAT, Red Stealer, 3CX Supply Chain, Ramnit, Lockdown, XWorm, IcedID, PhishStrike |
 | `supply-chain` | 3CX Supply Chain |
 | `campaign-analysis` | Gifted Crooks, Yellow RAT, 3CX Supply Chain, IcedID |
 | `wireshark` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot, Lockdown, Web Investigation |
 | `pcap` | WebStrike, Poisoned Credentials, PsExec Hunt, DanaBot, Lockdown, Web Investigation |
-| `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer, DanaBot, Ramnit, GrabThePhisher, Reveal, IcedID |
+| `cti-enrichment` | Gifted Crooks, L'espion, Red Stealer, DanaBot, Ramnit, GrabThePhisher, Reveal, IcedID, PhishStrike |
 | `llmnr-nbns` | Poisoned Credentials |
 | `ntlm-smb` | Poisoned Credentials, PsExec Hunt, Lockdown |
 | `ntfs-usn` | Curiosity |
-| `phishing` | Introduction to Phishing, Oski (delivery), GrabThePhisher, FakeGPT, XWorm, IcedID |
+| `phishing` | Introduction to Phishing, Oski (delivery), GrabThePhisher, FakeGPT, XWorm, IcedID, PhishStrike |
 | `browser-extension` | FakeGPT |
 | `malware-config` | Oski, 3CX Supply Chain, FakeGPT, XWorm |
-| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT, Lockdown, XWorm, IcedID |
+| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT, Lockdown, XWorm, IcedID, PhishStrike |
 | `web-shell` | WebStrike, GrabThePhisher, Lockdown, Web Investigation |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown, XWorm, Reveal, Web Investigation, IcedID |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown, XWorm, Reveal, Web Investigation, IcedID, PhishStrike |
 | `memory-forensics` | Amadey APT-C-36, Ramnit, Lockdown, Reveal |
 | `volatility` | Amadey APT-C-36, Ramnit, Lockdown, Reveal |
 | `osint` | L'espion, Web Investigation |
