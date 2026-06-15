@@ -81,6 +81,7 @@ Reuse these across labs. Expand only when something is genuinely new.
 | **IcedID** | [cyberrange-icedid.md](threat_intelligence_labs/cyberrange-icedid.md) | `virustotal`, `cti-enrichment`, `campaign-analysis`, `c2-network`, `evasion`, `mitre-map`, `ioc`, `phishing` | T1203, T1105, T1566 |
 | **PhishStrike** | [cyberrange-phishstrike.md](threat_intelligence_labs/cyberrange-phishstrike.md) | `phishing`, `cti-enrichment`, `virustotal`, `sandbox`, `c2-network`, `evasion`, `mitre-map`, `ioc` | T1566, T1547, T1102 |
 | **XLMRat** | [cyberrange-xmlrat.md](digital_forensic_labs/cyberrange-xmlrat.md) | `pcap`, `wireshark`, `virustotal`, `c2-network`, `evasion`, `mitre-map`, `ioc`, `osint` | T1218.009, T1059, T1219 |
+| **RedLine** | [cyberrange-redline.md](digital_forensic_labs/cyberrange-redline.md) | `memory-forensics`, `volatility`, `c2-network`, `evasion`, `mitre-map`, `ioc` | T1055, T1572, T1071 |
 
 ---
 
@@ -105,11 +106,11 @@ Reuse these across labs. Expand only when something is genuinely new.
 | `phishing` | Introduction to Phishing, Oski (delivery), GrabThePhisher, FakeGPT, XWorm, IcedID, PhishStrike |
 | `browser-extension` | FakeGPT |
 | `malware-config` | Oski, 3CX Supply Chain, FakeGPT, XWorm |
-| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT, Lockdown, XWorm, IcedID, PhishStrike, XLMRat |
+| `evasion` | Oski, Amadey APT-C-36, 3CX Supply Chain, Ramnit, FakeGPT, Lockdown, XWorm, IcedID, PhishStrike, XLMRat, RedLine |
 | `web-shell` | WebStrike, GrabThePhisher, Lockdown, Web Investigation |
-| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown, XWorm, Reveal, Web Investigation, IcedID, PhishStrike, XLMRat |
-| `memory-forensics` | Amadey APT-C-36, Ramnit, Lockdown, Reveal |
-| `volatility` | Amadey APT-C-36, Ramnit, Lockdown, Reveal |
+| `c2-network` | Gifted Crooks, WebStrike, Oski, Yellow RAT, Amadey APT-C-36, Red Stealer, DanaBot, Ramnit, GrabThePhisher, FakeGPT, Dragos 1UP (BOTS), Lockdown, XWorm, Reveal, Web Investigation, IcedID, PhishStrike, XLMRat, RedLine |
+| `memory-forensics` | Amadey APT-C-36, Ramnit, Lockdown, Reveal, RedLine |
+| `volatility` | Amadey APT-C-36, Ramnit, Lockdown, Reveal, RedLine |
 | `osint` | L'espion, Web Investigation, XLMRat |
 | `insider-threat` | Curiosity, L'espion, Insider |
 | `linux-forensics` | Insider |

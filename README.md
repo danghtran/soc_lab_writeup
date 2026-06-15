@@ -34,6 +34,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **IcedID** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (IcedID / VT / Malpedia) | [`threat_intelligence_labs/cyberrange-icedid.md`](threat_intelligence_labs/cyberrange-icedid.md) | Complete |
 | **PhishStrike** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (phishing / URLHaus / RATs) | [`threat_intelligence_labs/cyberrange-phishstrike.md`](threat_intelligence_labs/cyberrange-phishstrike.md) | Complete |
 | **XLMRat** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP / AsyncRAT / LOLBin) | [`digital_forensic_labs/cyberrange-xmlrat.md`](digital_forensic_labs/cyberrange-xmlrat.md) | Complete |
+| **RedLine** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility / infostealer) | [`digital_forensic_labs/cyberrange-redline.md`](digital_forensic_labs/cyberrange-redline.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 
