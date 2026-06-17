@@ -35,6 +35,7 @@ Personal notes and structured write-ups for blue-team, digital forensics, threat
 | **PhishStrike** | [CyberDefenders](https://cyberdefenders.org/) | Threat intelligence (phishing / URLHaus / RATs) | [`threat_intelligence_labs/cyberrange-phishstrike.md`](threat_intelligence_labs/cyberrange-phishstrike.md) | Complete |
 | **XLMRat** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP / AsyncRAT / LOLBin) | [`digital_forensic_labs/cyberrange-xmlrat.md`](digital_forensic_labs/cyberrange-xmlrat.md) | Complete |
 | **RedLine** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (memory / Volatility / infostealer) | [`digital_forensic_labs/cyberrange-redline.md`](digital_forensic_labs/cyberrange-redline.md) | Complete |
+| **Tomcat Takeover** | [CyberDefenders](https://cyberdefenders.org/) | Digital forensics (PCAP / Tomcat compromise) | [`digital_forensic_labs/cyberrange-tomcattakeover.md`](digital_forensic_labs/cyberrange-tomcattakeover.md) | Complete |
 
 **Skills practiced per lab:** see [SKILLS.md](SKILLS.md).
 
